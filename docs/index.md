@@ -1,7 +1,10 @@
----
-title: Welcome
----
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Coursera!</title>
+</head>
+<body>
+	<h1>Hello Coursera!</h1>
+</body>
+</html>
 
-# Welcome to My Project 
-
-This is the homepage of my Coursera test webpage.
