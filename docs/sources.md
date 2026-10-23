@@ -78,3 +78,12 @@ The email splits these into two sections. Neither is labelled by relationship, b
 - **AI detection, verification and false-alarm reduction:** Actuate, Ambient.ai, Hakimo, Calipsa, Sentinel, Deep Sentinel
 - **AI-native video and cloud:** Spot AI, Coram, Lumana, Volt AI, Cloudastructure
 - Plus every new company the funding and accelerator scan surfaces each week
+
+## Immix reputation (for the reputation corner)
+
+- **Trade press mentions of Immix:** SecurityInfoWatch, SDM, Security Systems News, IFSEC Insider, Hi-Tech Security Solutions (set Google Alerts for "Immix" with "monitoring" OR "video" so the alerts skip the companies below that share our name)
+- **Partner newsrooms:** integration announcements from RAD/AITX, Actuate, Luma, Monitoreal, Cubitech, TrackTik and Eagle Eye/Brivo
+- **Immix's own news page:** immixprotect.com/category/featured-news
+- **Awards:** SIA New Product Showcase, TMA Excellence Awards, Security Today and SDM awards
+- **Reviews:** G2, Capterra, Gartner Peer Insights (no Immix profile found as of Oct 2026)
+- **Name watch:** IMMIX (London stablecoin FX start-up) and immixGroup (US public-sector IT reseller)

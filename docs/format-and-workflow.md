@@ -22,15 +22,16 @@ Each cadence gets its own subscription list, so people can opt into only the wee
 3. **The 3 signals that matter:** a TL;DR
 4. **Trends: video and virtual monitoring** (the key section)
    - *(Trends detail)* grouped by region: 🇺🇸 US → 🇬🇧 UK → 🌍 EMEA → 🇿🇦 South Africa → (other regions only if material). Every item includes a **"Selling to:"** line naming the customer segments the new entrants target
-5. **Top client spotlight:** the latest on each top client, in a fixed order, with a "For Immix" line. The client list is kept outside this repo because it's confidential
-6. **Ecosystem updates:** key updates from established players, including partners and integrations
-7. **Companies to watch:** emerging companies, **every funding round in the space at any size**, and accelerator graduates, each with **"Sells to:"**
-8. **Customer segments worth looking into:** each segment, who is selling into it, and what Immix could consider
-9. **Legislation, policy and talks:** enacted laws, proposed bills, consultations, hearings and notable talks, with product impact
-10. **What this means:** *For the industry*, 3 takeaways. *For Immix*: opportunity, risk and what to prepare
-11. **General security:** short bullets, deliberately at the bottom
-12. **Further reading:** every source used, by article title and publication, in groups
-13. **Footer:** internal-only notice, signal key, feedback
+5. **Top client spotlight:** the latest on each top client, in a fixed order, with a "For Immix" line. **Only confirmed clients are included**; unconfirmed names are left out until confirmed. The client list is kept outside this repo because it's confidential
+6. **Immix reputation corner:** how Immix shows up publicly. Covers press coverage, awards and recognition, partner announcements about Immix integrations, public reviews (G2, Capterra), and name watch (other companies called IMMIX or immixGroup that cause search and alert confusion). Each item has a "Use it" or "Consider" line
+7. **Ecosystem updates:** key updates from established players, including partners and integrations
+8. **Companies to watch:** emerging companies, **every funding round in the space at any size**, and accelerator graduates, each with **"Sells to:"**
+9. **Customer segments worth looking into:** each segment, who is selling into it, and what Immix could consider
+10. **Legislation, policy and talks:** enacted laws, proposed bills, consultations, hearings and notable talks, with product impact
+11. **What this means:** *For the industry*, 3 takeaways. *For Immix*: opportunity, risk and what to prepare
+12. **General security:** short bullets, deliberately at the bottom
+13. **Further reading:** every source used, by article title and publication, in groups
+14. **Footer:** internal-only notice, signal key, feedback
 
 Section names never label a company by relationship. "Ecosystem updates" covers partners and other established players alike.
 
