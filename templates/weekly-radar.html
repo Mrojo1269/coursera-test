@@ -54,6 +54,14 @@
     </div>
   </td></tr>
 
+  <!-- Top client spotlight: fixed order, list kept outside this repo -->
+  <tr><td style="padding:8px 28px 0;">
+    <h2 style="font-size:18px;color:#111111;margin:8px 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Top client spotlight</h2>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;line-height:1.5;">
+      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;vertical-align:top;width:22px;color:#BF2C37;font-weight:bold;">{{n}}</td><td style="padding:8px;vertical-align:top;width:96px;font-weight:bold;color:#111111;">{{client}}</td><td style="padding:8px;vertical-align:top;">{{latest_news_or_"No news this period"}} <em style="color:#BF2C37;">For Immix:</em> {{implication}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td></tr>
+    </table>
+  </td></tr>
+
   <!-- Priority lane -->
   <tr><td style="padding:8px 28px 0;">
     <h2 style="font-size:18px;color:#111111;margin:8px 0 4px;border-bottom:2px solid #111111;padding-bottom:6px;">Priority lane: video and virtual monitoring</h2>
@@ -72,6 +80,7 @@
       <div style="font-size:16px;font-weight:bold;margin:8px 0 4px;color:#111111;">[EXAMPLE] AI remote-guarding startup from a recent YC batch raises a round</div>
       <div style="font-size:14px;line-height:1.55;">{{two_sentence_summary}}</div>
       <div style="font-size:14px;line-height:1.55;margin-top:6px;"><strong style="color:#BF2C37;">Why it matters for Immix:</strong> {{immix_implication}}</div>
+      <div style="font-size:13px;line-height:1.5;margin-top:6px;padding:6px 8px;background-color:#F7F7F7;"><strong>Selling to:</strong> {{customer_segments}}</div>
       <div style="font-size:12px;margin-top:8px;"><a href="{{source_url}}" style="color:#BF2C37;">Source →</a></div>
     </td></tr></table>
 
@@ -83,6 +92,7 @@
       <div style="font-size:16px;font-weight:bold;margin:8px 0 4px;color:#111111;">[EXAMPLE] More police departments move to verified-response alarm policies</div>
       <div style="font-size:14px;line-height:1.55;">{{two_sentence_summary}}</div>
       <div style="font-size:14px;line-height:1.55;margin-top:6px;"><strong style="color:#BF2C37;">Why it matters for Immix:</strong> {{immix_implication}}</div>
+      <div style="font-size:13px;line-height:1.5;margin-top:6px;padding:6px 8px;background-color:#F7F7F7;"><strong>Selling to:</strong> {{customer_segments}}</div>
       <div style="font-size:12px;margin-top:8px;"><a href="{{source_url}}" style="color:#BF2C37;">Source →</a></div>
     </td></tr></table>
   </td></tr>
@@ -130,6 +140,16 @@
         <td style="padding:8px;">{{company}}</td><td style="padding:8px;">ZA</td>
         <td style="padding:8px;">Seed · ${{amount}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">4</td>
       </tr>
+    </table>
+  </td></tr>
+
+  <!-- Customer segments worth looking into -->
+  <tr><td style="padding:20px 28px 0;">
+    <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Customer segments worth looking into</h2>
+    <div style="font-size:12px;color:#5C5C5C;margin:-4px 0 8px;">Where new entrants are selling, and what Immix could consider for each.</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:12px;border-collapse:collapse;line-height:1.45;">
+      <tr style="background-color:#111111;color:#FFFFFF;"><th align="left" style="padding:7px;">Segment</th><th align="left" style="padding:7px;">Who's selling into it</th><th align="left" style="padding:7px;">What to consider for Immix</th></tr>
+      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;font-weight:bold;">{{segment}}</td><td style="padding:8px;">{{companies}}</td><td style="padding:8px;">{{consideration}}</td></tr>
     </table>
   </td></tr>
 
