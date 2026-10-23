@@ -33,6 +33,14 @@
     <div style="color:#BDBDBD;font-size:14px;margin-top:4px;">What's emerging in video and virtual monitoring, and what it means for Immix.</div>
   </td></tr>
 
+  <!-- Section menu: links open the web version at each section (Gmail strips in-email anchors). Trends is the primary, highlighted stop. -->
+  <tr><td style="padding:14px 28px 4px;">
+    <div style="font-size:11px;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Jump to a section (opens the web version) · <a href="{{web_url}}" style="color:#BF2C37;">View in browser</a></div>
+    <a href="{{web_url}}#trends" style="display:inline-block;background-color:#BF2C37;color:#FFFFFF;font-weight:bold;text-decoration:none;padding:5px 12px;margin:3px 4px 3px 0;font-size:13px;">★ Trends</a>
+    <!-- then outlined links: #clients Clients · #ecosystem Ecosystem · #watch Companies · #segments Segments · #policy Legislation · #meaning What it means · #general General security · #reading Sources -->
+    <a href="{{web_url}}#clients" style="display:inline-block;color:#111111;text-decoration:none;border:1px solid #D0D0D0;padding:4px 10px;margin:3px 4px 3px 0;font-size:12px;">Clients</a>
+  </td></tr>
+
   <!-- From the VP -->
   <tr><td style="padding:24px 28px 8px;">
     <div style="border-left:4px solid #BF2C37;padding:4px 0 4px 14px;">
@@ -54,17 +62,9 @@
     </div>
   </td></tr>
 
-  <!-- Top client spotlight: fixed order, list kept outside this repo -->
-  <tr><td style="padding:8px 28px 0;">
-    <h2 style="font-size:18px;color:#111111;margin:8px 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Top client spotlight</h2>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;line-height:1.5;">
-      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;vertical-align:top;width:22px;color:#BF2C37;font-weight:bold;">{{n}}</td><td style="padding:8px;vertical-align:top;width:96px;font-weight:bold;color:#111111;">{{client}}</td><td style="padding:8px;vertical-align:top;">{{latest_news_or_"No news this period"}} <em style="color:#BF2C37;">For Immix:</em> {{implication}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td></tr>
-    </table>
-  </td></tr>
-
   <!-- Priority lane -->
   <tr><td style="padding:8px 28px 0;">
-    <h2 style="font-size:18px;color:#111111;margin:8px 0 4px;border-bottom:2px solid #111111;padding-bottom:6px;">Priority lane: video and virtual monitoring</h2>
+    <h2 style="font-size:18px;color:#111111;margin:8px 0 4px;border-bottom:2px solid #111111;padding-bottom:6px;">Trends: video and virtual monitoring</h2>
   </td></tr>
 
   <!-- Region block (repeat per region: US, UK, EMEA, South Africa, Other only if material) -->
@@ -104,6 +104,14 @@
     <p style="font-size:14px;color:#5C5C5C;margin:8px 0 14px;">{{emea_items}}</p>
     <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;">🇿🇦 South Africa</div>
     <p style="font-size:14px;color:#5C5C5C;margin:8px 0 14px;">{{za_items}}</p>
+  </td></tr>
+
+  <!-- Top client spotlight: fixed order, list kept outside this repo -->
+  <tr><td style="padding:8px 28px 0;">
+    <h2 style="font-size:18px;color:#111111;margin:8px 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Top client spotlight</h2>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;line-height:1.5;">
+      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;vertical-align:top;width:22px;color:#BF2C37;font-weight:bold;">{{n}}</td><td style="padding:8px;vertical-align:top;width:96px;font-weight:bold;color:#111111;">{{client}}</td><td style="padding:8px;vertical-align:top;">{{latest_news_or_"No news this period"}} <em style="color:#BF2C37;">For Immix:</em> {{implication}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td></tr>
+    </table>
   </td></tr>
 
   <!-- Ecosystem updates (established players, partners and integrations alike) -->

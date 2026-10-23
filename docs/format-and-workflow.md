@@ -17,11 +17,12 @@ Each cadence gets its own subscription list, so people can opt into only the wee
 
 ## Weekly Radar: section order
 
-1. **Header:** Immix Protect branding, "Trend Radar", edition number, date range
+1. **Header:** Immix Protect branding, "Trend Radar", edition number, date range, then a **section menu**. Every edition is also published as a web version with a sticky menu. Each email menu link opens the web version at that section, because Gmail strips in-email anchor links. **Trends** is the highlighted first stop
 2. **From the VP of Product Transformation** (optional): your highlights and any roadmap take, written in the brainstorm session. The section is left out when there's nothing to add
 3. **The 3 signals that matter:** a TL;DR
-4. **Top client spotlight:** the latest on each top client, in a fixed order, with a "For Immix" line. The client list is kept outside this repo because it's confidential
-5. **Priority lane: video and virtual monitoring**, grouped by region: 🇺🇸 US → 🇬🇧 UK → 🌍 EMEA → 🇿🇦 South Africa → (other regions only if material). Every item includes a **"Selling to:"** line naming the customer segments the new entrants target
+4. **Trends: video and virtual monitoring** (the key section)
+   - *(Trends detail)* grouped by region: 🇺🇸 US → 🇬🇧 UK → 🌍 EMEA → 🇿🇦 South Africa → (other regions only if material). Every item includes a **"Selling to:"** line naming the customer segments the new entrants target
+5. **Top client spotlight:** the latest on each top client, in a fixed order, with a "For Immix" line. The client list is kept outside this repo because it's confidential
 6. **Ecosystem updates:** key updates from established players, including partners and integrations
 7. **Companies to watch:** emerging companies, **every funding round in the space at any size**, and accelerator graduates, each with **"Sells to:"**
 8. **Customer segments worth looking into:** each segment, who is selling into it, and what Immix could consider
