@@ -24,8 +24,10 @@ Each cadence gets its own subscription list, so people can opt into only the wee
 5. **Ecosystem updates:** key updates from established players, including partners and integrations (releases, partnerships, M&A, leadership, pricing)
 6. **Companies to watch:** emerging companies, plus **every funding round in the space at any size** and accelerator graduates (YC, Techstars and others)
 7. **Legislation, policy and talks:** enacted laws, proposed bills, consultations, hearings, and notable conference talks by regulators, police and industry bodies, each with its likely product impact
-8. **General security:** short bullets, deliberately at the bottom
-9. **Footer:** internal-only notice, signal key, feedback
+8. **What this means:** a two-column summary. *For the industry*: 3 takeaways. *For Immix*: opportunity, risk and what to prepare
+9. **General security:** short bullets, deliberately at the bottom
+10. **Further reading:** every source used, with article title and publication, grouped (video and monitoring, deals and companies, legislation and policy, general security)
+11. **Footer:** internal-only notice, signal key, feedback
 
 Section names never label a company by relationship. "Ecosystem updates" covers partners and other established players alike.
 
