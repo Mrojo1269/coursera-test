@@ -13,20 +13,19 @@ Each cadence gets its own subscription list, so people can opt into only the wee
 | Length | 3–5 bullets, about a 1-minute read | About a 5-minute read | About a 10-minute read |
 | Send rule | **Only when there's something material.** No news means no email | Every week | First week of each month |
 | Your review | Gmail draft; send, skip or edit | **Brainstorm session before send** | **Brainstorm session before send** |
-| Sections | Headlines only, with links | All sections below | Top 5 themes, trend movement, funding totals by region, legislation outlook, roadmap implications |
+| Sections | Headlines only, with links | All sections below | Top 5 themes, trend movement, funding totals by region, legislation outlook |
 
 ## Weekly Radar: section order
 
 1. **Header:** Immix Protect branding, "Trend Radar", edition number, date range
-2. **From the VP of Product Transformation:** your manual highlights, written in the brainstorm session
+2. **From the VP of Product Transformation** (optional): your manual highlights and any roadmap take, written in the brainstorm session. The section is left out when there's nothing to add
 3. **The 3 signals that matter this week:** a TL;DR
 4. **Priority lane: video and virtual monitoring**, grouped by region: 🇺🇸 US → 🇬🇧 UK → 🌍 EMEA → 🇿🇦 South Africa → (other regions only if material)
 5. **Ecosystem updates:** key updates from established players, including partners and integrations (releases, partnerships, M&A, leadership, pricing)
 6. **Companies to watch:** emerging companies, plus **every funding round in the space at any size** and accelerator graduates (YC, Techstars and others)
 7. **Legislation, policy and talks:** enacted laws, proposed bills, consultations, hearings, and notable conference talks by regulators, police and industry bodies, each with its likely product impact
-8. **What this means for the roadmap:** 2–3 questions or bets for product and R&D
-9. **General security:** short bullets, deliberately at the bottom
-10. **Footer:** internal-only notice, signal key, feedback
+8. **General security:** short bullets, deliberately at the bottom
+9. **Footer:** internal-only notice, signal key, feedback
 
 Section names never label a company by relationship. "Ecosystem updates" covers partners and other established players alike.
 
