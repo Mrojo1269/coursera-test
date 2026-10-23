@@ -67,7 +67,7 @@
       <span style="display:inline-block;background:#D64545;color:#FFF;font-size:11px;font-weight:bold;padding:2px 8px;border-radius:3px;">ACT</span>
       <span style="display:inline-block;background:#E3E8EE;color:#1F2A37;font-size:11px;padding:2px 8px;border-radius:3px;">Funding</span>
       <span style="font-size:11px;color:#5B6B7C;">· Relevance 5/5</span>
-      <div style="font-size:16px;font-weight:bold;margin:8px 0 4px;color:#0B1F3A;">[EXAMPLE] AI remote-guarding startup from a recent YC batch raises Series A</div>
+      <div style="font-size:16px;font-weight:bold;margin:8px 0 4px;color:#0B1F3A;">[EXAMPLE] AI remote-guarding startup from a recent YC batch raises a round</div>
       <div style="font-size:14px;line-height:1.55;">{{two_sentence_summary}}</div>
       <div style="font-size:14px;line-height:1.55;margin-top:6px;"><strong style="color:#00A5A8;">Why it matters for Immix:</strong> {{immix_implication}}</div>
       <div style="font-size:12px;margin-top:8px;"><a href="{{source_url}}" style="color:#00A5A8;">Source →</a></div>
@@ -94,9 +94,26 @@
     <p style="font-size:14px;color:#5B6B7C;margin:8px 0 14px;">{{za_items}}</p>
   </td></tr>
 
-  <!-- Startup & funding radar -->
-  <tr><td style="padding:8px 28px 0;">
-    <h2 style="font-size:18px;color:#0B1F3A;margin:8px 0 10px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Startup and funding radar</h2>
+  <!-- Ecosystem updates (established players, partners and integrations alike) -->
+  <tr><td style="padding:12px 28px 0;">
+    <h2 style="font-size:18px;color:#0B1F3A;margin:0 0 10px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Ecosystem updates</h2>
+    <div style="font-size:12px;color:#5B6B7C;margin:-4px 0 8px;">Key moves from established players, partners and integrations.</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;">
+      <tr style="border-bottom:1px solid #E3E8EE;">
+        <td style="padding:8px;width:120px;font-weight:bold;color:#0B1F3A;">{{company}}</td>
+        <td style="padding:8px;"><span style="background:#E3E8EE;font-size:11px;padding:1px 6px;border-radius:3px;">Launch</span> {{update}}. <em style="color:#00A5A8;">Why it matters:</em> {{implication}} <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+      </tr>
+      <tr style="background:#F7F9FB;border-bottom:1px solid #E3E8EE;">
+        <td style="padding:8px;width:120px;font-weight:bold;color:#0B1F3A;">{{company}}</td>
+        <td style="padding:8px;"><span style="background:#E3E8EE;font-size:11px;padding:1px 6px;border-radius:3px;">Partnership</span> {{update}}. <em style="color:#00A5A8;">Why it matters:</em> {{implication}} <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+      </tr>
+    </table>
+  </td></tr>
+
+  <!-- Companies to watch (emerging + all funding rounds in the space) -->
+  <tr><td style="padding:20px 28px 0;">
+    <h2 style="font-size:18px;color:#0B1F3A;margin:0 0 10px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Companies to watch</h2>
+    <div style="font-size:12px;color:#5B6B7C;margin:-4px 0 8px;">Emerging companies, accelerator graduates and every funding round in the space, at any size.</div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;">
       <tr style="background:#0B1F3A;color:#FFFFFF;">
         <th align="left" style="padding:8px;">Company</th><th align="left" style="padding:8px;">Region</th>
@@ -108,18 +125,30 @@
         <td style="padding:8px;">YC {{batch}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">5</td>
       </tr>
       <tr style="background:#F7F9FB;border-bottom:1px solid #E3E8EE;">
-        <td style="padding:8px;">{{company}}</td><td style="padding:8px;">UK</td>
-        <td style="padding:8px;">Series A · ${{amount}}M</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">4</td>
+        <td style="padding:8px;">{{company}}</td><td style="padding:8px;">ZA</td>
+        <td style="padding:8px;">Seed · ${{amount}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">4</td>
       </tr>
     </table>
   </td></tr>
 
-  <!-- Regulation -->
+  <!-- Legislation, policy & talks -->
   <tr><td style="padding:20px 28px 0;">
-    <h2 style="font-size:18px;color:#0B1F3A;margin:0 0 10px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Regulation and standards</h2>
-    <ul style="margin:0 0 0 18px;padding:0;font-size:14px;line-height:1.6;">
-      <li><strong>{{region}}:</strong> {{change}}. <em>Product impact:</em> {{impact}}</li>
-    </ul>
+    <h2 style="font-size:18px;color:#0B1F3A;margin:0 0 10px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Legislation, policy and talks</h2>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;">
+      <tr style="border-bottom:1px solid #E3E8EE;">
+        <td style="padding:8px;width:70px;font-weight:bold;">🇺🇸 US</td>
+        <td style="padding:8px;"><span style="background:#E8A33D;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">PROPOSED</span> {{bill_or_rule}}. <em>Product impact:</em> {{impact}} <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+      </tr>
+      <tr style="background:#F7F9FB;border-bottom:1px solid #E3E8EE;">
+        <td style="padding:8px;width:70px;font-weight:bold;">🇪🇺 EMEA</td>
+        <td style="padding:8px;"><span style="background:#D64545;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">IN FORCE</span> {{law}}. <em>Product impact:</em> {{impact}} <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+      </tr>
+      <tr style="border-bottom:1px solid #E3E8EE;">
+        <td style="padding:8px;width:70px;font-weight:bold;">🇿🇦 ZA</td>
+        <td style="padding:8px;"><span style="background:#3A7BD5;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">TALK</span> {{speaker_event}}: {{what_was_signalled}}. <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+      </tr>
+    </table>
+    <div style="font-size:11px;color:#8A97A6;margin-top:6px;">Stages: TALK → PROPOSED → CONSULTATION → PASSED → IN FORCE</div>
   </td></tr>
 
   <!-- Roadmap implications -->
@@ -144,11 +173,11 @@
   <!-- Footer -->
   <tr><td style="padding:24px 28px;margin-top:20px;">
     <div style="border-top:1px solid #E3E8EE;padding-top:14px;font-size:11px;line-height:1.6;color:#8A97A6;">
-      Immix Protect Trend Radar, prepared for internal product strategy. Signal key:
+      <strong style="color:#D64545;">INTERNAL: do not forward outside Immix Protect.</strong><br>Immix Protect Trend Radar, prepared for internal product strategy. Signal key:
       <strong style="color:#D64545;">ACT</strong> needs a response ·
       <strong style="color:#E8A33D;">WATCH</strong> track it ·
       <strong style="color:#3A7BD5;">EXPLORE</strong> worth a conversation.<br>
-      Reply with feedback or tips · <a href="{{unsubscribe_url}}" style="color:#8A97A6;">Unsubscribe</a> · Change cadence (Daily / Weekly / Monthly)
+      Reply with feedback or tips · Change cadence (Daily / Weekly / Monthly): reply to Melissa
     </div>
   </td></tr>
 

@@ -8,4 +8,4 @@ A product-strategy trend report for Immix Protect leadership. It tracks emerging
 | [`docs/format-and-workflow.md`](docs/format-and-workflow.md) | Cadences (daily, weekly, monthly), section structure, scoring, and the review-then-send workflow |
 | [`templates/weekly-radar.html`](templates/weekly-radar.html) | Branded HTML email template for the weekly edition (email-safe inline styles) |
 
-**Status:** draft v0.1. The brand colours and logo are placeholders until we have the official brand assets. See the open questions in `docs/format-and-workflow.md`.
+**Status:** draft v0.2. The report is internal only, and drafts land in Melissa's Gmail. Brand colours and logo are still placeholders until immixprotect.com assets are pulled in.
