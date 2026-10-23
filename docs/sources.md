@@ -87,3 +87,11 @@ The email splits these into two sections. Neither is labelled by relationship, b
 - **Awards:** SIA New Product Showcase, TMA Excellence Awards, Security Today and SDM awards
 - **Reviews:** G2, Capterra, Gartner Peer Insights (no Immix profile found as of Oct 2026)
 - **Name watch:** IMMIX (London stablecoin FX start-up) and immixGroup (US public-sector IT reseller)
+
+## Auxiliary markets (for the auxiliary markets section)
+
+- **Site mapping and reality capture:** System Surveyor, Matterport, NavVis, DroneDeploy, The American Surveyor, Trimble
+- **Insurance:** ENR builders' risk coverage, Marsh, Allianz Commercial, Insurance Journal
+- **Drones:** Flock Aerodome, Skydio, BRINC, DroneLife, FAA BVLOS rulemaking
+- **Energy sites:** Solar Power World, PV Magazine, EV charging trade press (ChargePoint, SWTCH)
+- **Smart buildings and proptech:** Smart Building Magazine, Commercial Observer proptech, Brivo

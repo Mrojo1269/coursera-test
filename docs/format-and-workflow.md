@@ -27,11 +27,12 @@ Each cadence gets its own subscription list, so people can opt into only the wee
 7. **Ecosystem updates:** key updates from established players, including partners and integrations
 8. **Companies to watch:** emerging companies, **every funding round in the space at any size**, and accelerator graduates, each with **"Sells to:"**
 9. **Customer segments worth looking into:** each segment, who is selling into it, and what Immix could consider
-10. **Legislation, policy and talks:** enacted laws, proposed bills, consultations, hearings and notable talks, with product impact
-11. **What this means:** *For the industry*, 3 takeaways. *For Immix*: opportunity, risk and what to prepare
-12. **General security:** short bullets, deliberately at the bottom
-13. **Further reading:** every source used, by article title and publication, in groups
-14. **Footer:** internal-only notice, signal key, feedback
+10. **Auxiliary markets and innovation:** innovation in neighbouring markets: site mapping and reality capture (real estate, construction), insurance, drones, energy sites, smart buildings. Each item has an "Immix angle" line
+11. **Legislation, policy and talks:** enacted laws, proposed bills, consultations, hearings and notable talks, with product impact
+12. **What this means:** *For the industry*, 3 takeaways. *For Immix*: opportunity, risk and what to prepare
+13. **General security:** short bullets, deliberately at the bottom
+14. **Further reading:** every source used, by article title and publication, in groups
+15. **Footer:** internal-only notice, signal key, feedback
 
 Section names never label a company by relationship. "Ecosystem updates" covers partners and other established players alike.
 
