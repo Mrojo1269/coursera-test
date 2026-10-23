@@ -6,44 +6,45 @@
 <title>Immix Protect Trend Radar</title>
 <!--
   Email-safe template: table layout and inline styles only.
-  BRAND PLACEHOLDERS (replace once official assets arrive):
-    Navy   #0B1F3A  (header and headings)
-    Teal   #00A5A8  (accent, links)
-    ACT    #D64545 · WATCH #E8A33D · EXPLORE #3A7BD5
+  IMMIX BRAND: black, red and white
+    Red    #BF2C37  (sampled from the immix logo: accents, links, ACT)
+    Black  #111111  (title band, headings, WATCH)
+    White  #FFFFFF  (logo bar, card backgrounds). Greys only for secondary text.
+  Logo: assets/immix-logo.png. Set {{logo_src}} to a hosted URL, or to an inline (cid) image when sending from Gmail.
   Content placeholders use {{double_braces}}. Example items are marked [EXAMPLE].
 -->
 </head>
-<body style="margin:0;padding:0;background:#EEF1F5;font-family:Arial,Helvetica,sans-serif;color:#1F2A37;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#EEF1F5;">
+<body style="margin:0;padding:0;background:#F2F2F2;font-family:Arial,Helvetica,sans-serif;color:#1A1A1A;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F2F2F2;">
 <tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="640" cellpadding="0" cellspacing="0" style="max-width:640px;width:100%;background:#FFFFFF;border-radius:6px;overflow:hidden;">
 
-  <!-- Header -->
-  <tr><td style="background:#0B1F3A;padding:24px 28px;">
+  <!-- Header: white logo bar, red rule, black title band -->
+  <tr><td style="background:#FFFFFF;padding:20px 28px 16px;">
     <table role="presentation" width="100%"><tr>
-      <td style="color:#FFFFFF;font-size:20px;font-weight:bold;letter-spacing:0.5px;">
-        <!-- Replace with <img src="{{logo_url}}" alt="Immix Protect" height="28"> -->
-        IMMIX <span style="color:#00A5A8;">PROTECT</span>
-      </td>
-      <td align="right" style="color:#9FB3C8;font-size:12px;">Weekly Radar · #{{edition}}<br>{{date_range}}</td>
+      <td><img src="{{logo_src}}" alt="immix" width="150" height="33" style="display:block;border:0;"></td>
+      <td align="right" style="color:#5C5C5C;font-size:12px;">Weekly Radar · #{{edition}}<br>{{date_range}}</td>
     </tr></table>
-    <div style="color:#FFFFFF;font-size:26px;font-weight:bold;margin-top:18px;">Trend Radar</div>
-    <div style="color:#9FB3C8;font-size:14px;margin-top:4px;">What's emerging in video and virtual monitoring, and what it means for our roadmap.</div>
+  </td></tr>
+  <tr><td style="background:#BF2C37;height:4px;line-height:4px;font-size:0;">&nbsp;</td></tr>
+  <tr><td style="background:#111111;padding:22px 28px;">
+    <div style="color:#FFFFFF;font-size:26px;font-weight:bold;">Trend Radar</div>
+    <div style="color:#BDBDBD;font-size:14px;margin-top:4px;">What's emerging in video and virtual monitoring, and what it means for our roadmap.</div>
   </td></tr>
 
   <!-- From the VP -->
   <tr><td style="padding:24px 28px 8px;">
-    <div style="border-left:4px solid #00A5A8;padding:4px 0 4px 14px;">
-      <div style="font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#00A5A8;font-weight:bold;">From the VP of Product Transformation</div>
+    <div style="border-left:4px solid #BF2C37;padding:4px 0 4px 14px;">
+      <div style="font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#BF2C37;font-weight:bold;">From the VP of Product Transformation</div>
       <p style="font-size:15px;line-height:1.55;margin:8px 0 6px;">{{vp_highlights. Written together in the pre-send brainstorm session}}</p>
-      <div style="font-size:13px;color:#5B6B7C;">— Melissa Rojo</div>
+      <div style="font-size:13px;color:#5C5C5C;">— Melissa Rojo</div>
     </div>
   </td></tr>
 
   <!-- TL;DR -->
   <tr><td style="padding:16px 28px;">
-    <div style="background:#F3F7FA;border-radius:6px;padding:16px 18px;">
-      <div style="font-size:13px;font-weight:bold;color:#0B1F3A;text-transform:uppercase;letter-spacing:1px;">The 3 signals that matter this week</div>
+    <div style="background:#F7F7F7;border-radius:6px;padding:16px 18px;">
+      <div style="font-size:13px;font-weight:bold;color:#111111;text-transform:uppercase;letter-spacing:1px;">The 3 signals that matter this week</div>
       <ol style="margin:10px 0 0 18px;padding:0;font-size:14px;line-height:1.6;">
         <li>{{signal_1}}</li>
         <li>{{signal_2}}</li>
@@ -54,77 +55,77 @@
 
   <!-- Priority lane -->
   <tr><td style="padding:8px 28px 0;">
-    <h2 style="font-size:18px;color:#0B1F3A;margin:8px 0 4px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Priority lane: video and virtual monitoring</h2>
+    <h2 style="font-size:18px;color:#111111;margin:8px 0 4px;border-bottom:2px solid #111111;padding-bottom:6px;">Priority lane: video and virtual monitoring</h2>
   </td></tr>
 
   <!-- Region block (repeat per region: US, UK, EMEA, South Africa, Other only if material) -->
   <tr><td style="padding:12px 28px 0;">
-    <div style="font-size:13px;font-weight:bold;color:#5B6B7C;text-transform:uppercase;letter-spacing:1px;">🇺🇸 United States</div>
+    <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;">🇺🇸 United States</div>
 
     <!-- Trend item (repeat) -->
-    <table role="presentation" width="100%" style="margin:10px 0 14px;border:1px solid #E3E8EE;border-radius:6px;">
+    <table role="presentation" width="100%" style="margin:10px 0 14px;border:1px solid #E6E6E6;border-radius:6px;">
     <tr><td style="padding:14px 16px;">
-      <span style="display:inline-block;background:#D64545;color:#FFF;font-size:11px;font-weight:bold;padding:2px 8px;border-radius:3px;">ACT</span>
-      <span style="display:inline-block;background:#E3E8EE;color:#1F2A37;font-size:11px;padding:2px 8px;border-radius:3px;">Funding</span>
-      <span style="font-size:11px;color:#5B6B7C;">· Relevance 5/5</span>
-      <div style="font-size:16px;font-weight:bold;margin:8px 0 4px;color:#0B1F3A;">[EXAMPLE] AI remote-guarding startup from a recent YC batch raises a round</div>
+      <span style="display:inline-block;background:#BF2C37;color:#FFF;font-size:11px;font-weight:bold;padding:2px 8px;border-radius:3px;">ACT</span>
+      <span style="display:inline-block;background:#E6E6E6;color:#1A1A1A;font-size:11px;padding:2px 8px;border-radius:3px;">Funding</span>
+      <span style="font-size:11px;color:#5C5C5C;">· Relevance 5/5</span>
+      <div style="font-size:16px;font-weight:bold;margin:8px 0 4px;color:#111111;">[EXAMPLE] AI remote-guarding startup from a recent YC batch raises a round</div>
       <div style="font-size:14px;line-height:1.55;">{{two_sentence_summary}}</div>
-      <div style="font-size:14px;line-height:1.55;margin-top:6px;"><strong style="color:#00A5A8;">Why it matters for Immix:</strong> {{immix_implication}}</div>
-      <div style="font-size:12px;margin-top:8px;"><a href="{{source_url}}" style="color:#00A5A8;">Source →</a></div>
+      <div style="font-size:14px;line-height:1.55;margin-top:6px;"><strong style="color:#BF2C37;">Why it matters for Immix:</strong> {{immix_implication}}</div>
+      <div style="font-size:12px;margin-top:8px;"><a href="{{source_url}}" style="color:#BF2C37;">Source →</a></div>
     </td></tr></table>
 
-    <table role="presentation" width="100%" style="margin:0 0 14px;border:1px solid #E3E8EE;border-radius:6px;">
+    <table role="presentation" width="100%" style="margin:0 0 14px;border:1px solid #E6E6E6;border-radius:6px;">
     <tr><td style="padding:14px 16px;">
-      <span style="display:inline-block;background:#E8A33D;color:#FFF;font-size:11px;font-weight:bold;padding:2px 8px;border-radius:3px;">WATCH</span>
-      <span style="display:inline-block;background:#E3E8EE;color:#1F2A37;font-size:11px;padding:2px 8px;border-radius:3px;">Legislation</span>
-      <span style="font-size:11px;color:#5B6B7C;">· Relevance 4/5</span>
-      <div style="font-size:16px;font-weight:bold;margin:8px 0 4px;color:#0B1F3A;">[EXAMPLE] More police departments move to verified-response alarm policies</div>
+      <span style="display:inline-block;background:#111111;color:#FFF;font-size:11px;font-weight:bold;padding:2px 8px;border-radius:3px;">WATCH</span>
+      <span style="display:inline-block;background:#E6E6E6;color:#1A1A1A;font-size:11px;padding:2px 8px;border-radius:3px;">Legislation</span>
+      <span style="font-size:11px;color:#5C5C5C;">· Relevance 4/5</span>
+      <div style="font-size:16px;font-weight:bold;margin:8px 0 4px;color:#111111;">[EXAMPLE] More police departments move to verified-response alarm policies</div>
       <div style="font-size:14px;line-height:1.55;">{{two_sentence_summary}}</div>
-      <div style="font-size:14px;line-height:1.55;margin-top:6px;"><strong style="color:#00A5A8;">Why it matters for Immix:</strong> {{immix_implication}}</div>
-      <div style="font-size:12px;margin-top:8px;"><a href="{{source_url}}" style="color:#00A5A8;">Source →</a></div>
+      <div style="font-size:14px;line-height:1.55;margin-top:6px;"><strong style="color:#BF2C37;">Why it matters for Immix:</strong> {{immix_implication}}</div>
+      <div style="font-size:12px;margin-top:8px;"><a href="{{source_url}}" style="color:#BF2C37;">Source →</a></div>
     </td></tr></table>
   </td></tr>
 
   <tr><td style="padding:4px 28px 0;">
-    <div style="font-size:13px;font-weight:bold;color:#5B6B7C;text-transform:uppercase;letter-spacing:1px;">🇬🇧 United Kingdom</div>
-    <p style="font-size:14px;color:#5B6B7C;margin:8px 0 14px;">{{uk_items}}</p>
-    <div style="font-size:13px;font-weight:bold;color:#5B6B7C;text-transform:uppercase;letter-spacing:1px;">🌍 EMEA</div>
-    <p style="font-size:14px;color:#5B6B7C;margin:8px 0 14px;">{{emea_items}}</p>
-    <div style="font-size:13px;font-weight:bold;color:#5B6B7C;text-transform:uppercase;letter-spacing:1px;">🇿🇦 South Africa</div>
-    <p style="font-size:14px;color:#5B6B7C;margin:8px 0 14px;">{{za_items}}</p>
+    <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;">🇬🇧 United Kingdom</div>
+    <p style="font-size:14px;color:#5C5C5C;margin:8px 0 14px;">{{uk_items}}</p>
+    <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;">🌍 EMEA</div>
+    <p style="font-size:14px;color:#5C5C5C;margin:8px 0 14px;">{{emea_items}}</p>
+    <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;">🇿🇦 South Africa</div>
+    <p style="font-size:14px;color:#5C5C5C;margin:8px 0 14px;">{{za_items}}</p>
   </td></tr>
 
   <!-- Ecosystem updates (established players, partners and integrations alike) -->
   <tr><td style="padding:12px 28px 0;">
-    <h2 style="font-size:18px;color:#0B1F3A;margin:0 0 10px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Ecosystem updates</h2>
-    <div style="font-size:12px;color:#5B6B7C;margin:-4px 0 8px;">Key moves from established players, partners and integrations.</div>
+    <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Ecosystem updates</h2>
+    <div style="font-size:12px;color:#5C5C5C;margin:-4px 0 8px;">Key moves from established players, partners and integrations.</div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;">
-      <tr style="border-bottom:1px solid #E3E8EE;">
-        <td style="padding:8px;width:120px;font-weight:bold;color:#0B1F3A;">{{company}}</td>
-        <td style="padding:8px;"><span style="background:#E3E8EE;font-size:11px;padding:1px 6px;border-radius:3px;">Launch</span> {{update}}. <em style="color:#00A5A8;">Why it matters:</em> {{implication}} <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+      <tr style="border-bottom:1px solid #E6E6E6;">
+        <td style="padding:8px;width:120px;font-weight:bold;color:#111111;">{{company}}</td>
+        <td style="padding:8px;"><span style="background:#E6E6E6;font-size:11px;padding:1px 6px;border-radius:3px;">Launch</span> {{update}}. <em style="color:#BF2C37;">Why it matters:</em> {{implication}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td>
       </tr>
-      <tr style="background:#F7F9FB;border-bottom:1px solid #E3E8EE;">
-        <td style="padding:8px;width:120px;font-weight:bold;color:#0B1F3A;">{{company}}</td>
-        <td style="padding:8px;"><span style="background:#E3E8EE;font-size:11px;padding:1px 6px;border-radius:3px;">Partnership</span> {{update}}. <em style="color:#00A5A8;">Why it matters:</em> {{implication}} <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+      <tr style="background:#FAFAFA;border-bottom:1px solid #E6E6E6;">
+        <td style="padding:8px;width:120px;font-weight:bold;color:#111111;">{{company}}</td>
+        <td style="padding:8px;"><span style="background:#E6E6E6;font-size:11px;padding:1px 6px;border-radius:3px;">Partnership</span> {{update}}. <em style="color:#BF2C37;">Why it matters:</em> {{implication}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td>
       </tr>
     </table>
   </td></tr>
 
   <!-- Companies to watch (emerging + all funding rounds in the space) -->
   <tr><td style="padding:20px 28px 0;">
-    <h2 style="font-size:18px;color:#0B1F3A;margin:0 0 10px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Companies to watch</h2>
-    <div style="font-size:12px;color:#5B6B7C;margin:-4px 0 8px;">Emerging companies, accelerator graduates and every funding round in the space, at any size.</div>
+    <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Companies to watch</h2>
+    <div style="font-size:12px;color:#5C5C5C;margin:-4px 0 8px;">Emerging companies, accelerator graduates and every funding round in the space, at any size.</div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;">
-      <tr style="background:#0B1F3A;color:#FFFFFF;">
+      <tr style="background:#111111;color:#FFFFFF;">
         <th align="left" style="padding:8px;">Company</th><th align="left" style="padding:8px;">Region</th>
         <th align="left" style="padding:8px;">Programme / round</th><th align="left" style="padding:8px;">What they do</th>
         <th align="left" style="padding:8px;">Rel.</th>
       </tr>
-      <tr style="border-bottom:1px solid #E3E8EE;">
+      <tr style="border-bottom:1px solid #E6E6E6;">
         <td style="padding:8px;">{{company}}</td><td style="padding:8px;">US</td>
         <td style="padding:8px;">YC {{batch}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">5</td>
       </tr>
-      <tr style="background:#F7F9FB;border-bottom:1px solid #E3E8EE;">
+      <tr style="background:#FAFAFA;border-bottom:1px solid #E6E6E6;">
         <td style="padding:8px;">{{company}}</td><td style="padding:8px;">ZA</td>
         <td style="padding:8px;">Seed · ${{amount}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">4</td>
       </tr>
@@ -133,28 +134,28 @@
 
   <!-- Legislation, policy & talks -->
   <tr><td style="padding:20px 28px 0;">
-    <h2 style="font-size:18px;color:#0B1F3A;margin:0 0 10px;border-bottom:2px solid #0B1F3A;padding-bottom:6px;">Legislation, policy and talks</h2>
+    <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Legislation, policy and talks</h2>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;">
-      <tr style="border-bottom:1px solid #E3E8EE;">
+      <tr style="border-bottom:1px solid #E6E6E6;">
         <td style="padding:8px;width:70px;font-weight:bold;">🇺🇸 US</td>
-        <td style="padding:8px;"><span style="background:#E8A33D;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">PROPOSED</span> {{bill_or_rule}}. <em>Product impact:</em> {{impact}} <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+        <td style="padding:8px;"><span style="background:#111111;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">PROPOSED</span> {{bill_or_rule}}. <em>Product impact:</em> {{impact}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td>
       </tr>
-      <tr style="background:#F7F9FB;border-bottom:1px solid #E3E8EE;">
+      <tr style="background:#FAFAFA;border-bottom:1px solid #E6E6E6;">
         <td style="padding:8px;width:70px;font-weight:bold;">🇪🇺 EMEA</td>
-        <td style="padding:8px;"><span style="background:#D64545;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">IN FORCE</span> {{law}}. <em>Product impact:</em> {{impact}} <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+        <td style="padding:8px;"><span style="background:#BF2C37;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">IN FORCE</span> {{law}}. <em>Product impact:</em> {{impact}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td>
       </tr>
-      <tr style="border-bottom:1px solid #E3E8EE;">
+      <tr style="border-bottom:1px solid #E6E6E6;">
         <td style="padding:8px;width:70px;font-weight:bold;">🇿🇦 ZA</td>
-        <td style="padding:8px;"><span style="background:#3A7BD5;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">TALK</span> {{speaker_event}}: {{what_was_signalled}}. <a href="{{source_url}}" style="color:#00A5A8;">→</a></td>
+        <td style="padding:8px;"><span style="background:#6B6B6B;color:#FFF;font-size:11px;padding:1px 6px;border-radius:3px;">TALK</span> {{speaker_event}}: {{what_was_signalled}}. <a href="{{source_url}}" style="color:#BF2C37;">→</a></td>
       </tr>
     </table>
-    <div style="font-size:11px;color:#8A97A6;margin-top:6px;">Stages: TALK → PROPOSED → CONSULTATION → PASSED → IN FORCE</div>
+    <div style="font-size:11px;color:#8A8A8A;margin-top:6px;">Stages: TALK → PROPOSED → CONSULTATION → PASSED → IN FORCE</div>
   </td></tr>
 
   <!-- Roadmap implications -->
   <tr><td style="padding:20px 28px 0;">
-    <div style="background:#0B1F3A;border-radius:6px;padding:16px 18px;color:#FFFFFF;">
-      <div style="font-size:13px;font-weight:bold;color:#00A5A8;text-transform:uppercase;letter-spacing:1px;">What this means for the roadmap</div>
+    <div style="background:#111111;border-radius:6px;padding:16px 18px;color:#FFFFFF;">
+      <div style="font-size:13px;font-weight:bold;color:#BF2C37;text-transform:uppercase;letter-spacing:1px;">What this means for the roadmap</div>
       <ul style="margin:10px 0 0 18px;padding:0;font-size:14px;line-height:1.6;">
         <li>{{roadmap_question_1}}</li>
         <li>{{roadmap_question_2}}</li>
@@ -164,19 +165,19 @@
 
   <!-- General security (bottom) -->
   <tr><td style="padding:20px 28px 0;">
-    <h2 style="font-size:16px;color:#5B6B7C;margin:0 0 8px;">General security</h2>
-    <ul style="margin:0 0 0 18px;padding:0;font-size:13px;line-height:1.6;color:#3D4A57;">
-      <li>{{headline}}: <a href="{{source_url}}" style="color:#00A5A8;">source</a></li>
+    <h2 style="font-size:16px;color:#5C5C5C;margin:0 0 8px;">General security</h2>
+    <ul style="margin:0 0 0 18px;padding:0;font-size:13px;line-height:1.6;color:#333333;">
+      <li>{{headline}}: <a href="{{source_url}}" style="color:#BF2C37;">source</a></li>
     </ul>
   </td></tr>
 
   <!-- Footer -->
   <tr><td style="padding:24px 28px;margin-top:20px;">
-    <div style="border-top:1px solid #E3E8EE;padding-top:14px;font-size:11px;line-height:1.6;color:#8A97A6;">
-      <strong style="color:#D64545;">INTERNAL: do not forward outside Immix Protect.</strong><br>Immix Protect Trend Radar, prepared for internal product strategy. Signal key:
-      <strong style="color:#D64545;">ACT</strong> needs a response ·
-      <strong style="color:#E8A33D;">WATCH</strong> track it ·
-      <strong style="color:#3A7BD5;">EXPLORE</strong> worth a conversation.<br>
+    <div style="border-top:1px solid #E6E6E6;padding-top:14px;font-size:11px;line-height:1.6;color:#8A8A8A;">
+      <strong style="color:#BF2C37;">INTERNAL: do not forward outside Immix Protect.</strong><br>Immix Protect Trend Radar, prepared for internal product strategy. Signal key:
+      <strong style="color:#BF2C37;">ACT</strong> needs a response ·
+      <strong style="color:#111111;">WATCH</strong> track it ·
+      <strong style="color:#6B6B6B;">EXPLORE</strong> worth a conversation.<br>
       Reply with feedback or tips · Change cadence (Daily / Weekly / Monthly): reply to Melissa
     </div>
   </td></tr>

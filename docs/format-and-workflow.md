@@ -58,7 +58,7 @@ The daily Pulse lands as a Gmail draft each morning when there's news. The month
 
 ## Still open
 
-1. **Brand colours and logo** from immixprotect.com. The cloud environment can't reach the site yet, so the template still uses placeholders.
+1. ~~Brand colours and logo~~: done (black, red #BF2C37 and white; logo in `assets/`).
 2. **Mailing list:** you'll share it.
 3. **Timing:** is Monday 08:00 SAST right? Which day suits the brainstorm?
 4. **Paid sources:** which of IPVM, Crunchbase Pro, PitchBook/Dealroom and Memoori do we have?
