@@ -37,7 +37,7 @@
   <tr><td style="padding:14px 28px 4px;">
     <div style="font-size:11px;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Jump to a section (opens the web version) · <a href="{{web_url}}" style="color:#BF2C37;">View in browser</a></div>
     <a href="{{web_url}}#trends" style="display:inline-block;background-color:#BF2C37;color:#FFFFFF;font-weight:bold;text-decoration:none;padding:5px 12px;margin:3px 4px 3px 0;font-size:13px;">★ Trends</a>
-    <!-- then outlined links: #clients Clients · #reputation Reputation · #ecosystem Ecosystem · #watch Companies · #segments Segments · #adjacent Auxiliary markets · #policy Legislation · #meaning What it means · #general General security · #reading Sources -->
+    <!-- then outlined links: #clients Clients · #reputation Reputation · #ecosystem Ecosystem · #watch Companies · #associations Associations · #watch Companies · #segments Segments · #adjacent Auxiliary markets · #policy Legislation · #deepdive Deep dive · #meaning What it means · #general General security · #reading Sources -->
     <a href="{{web_url}}#clients" style="display:inline-block;color:#111111;text-decoration:none;border:1px solid #D0D0D0;padding:4px 10px;margin:3px 4px 3px 0;font-size:12px;">Clients</a>
     <a href="{{web_url}}#reputation" style="display:inline-block;color:#111111;text-decoration:none;border:1px solid #D0D0D0;padding:4px 10px;margin:3px 4px 3px 0;font-size:12px;">Reputation</a>
   </td></tr>
@@ -140,6 +140,15 @@
     </table>
   </td></tr>
 
+  <!-- Industry associations: BSIA, TMA, SIA, ASIS, NetOne, Euralarm (one row each, with an Immix angle) -->
+  <tr><td style="padding:20px 28px 0;">
+    <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Industry associations</h2>
+    <div style="font-size:12px;color:#5C5C5C;margin:-4px 0 8px;">News from BSIA, TMA, SIA, ASIS, NetOne and Euralarm.</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;line-height:1.5;">
+      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;vertical-align:top;width:110px;font-weight:bold;color:#111111;">{{association (region)}}</td><td style="padding:8px;vertical-align:top;">{{news}} <em style="color:#BF2C37;">Immix angle:</em> {{angle}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td></tr>
+    </table>
+  </td></tr>
+
   <!-- Companies to watch (emerging + all funding rounds in the space) -->
   <tr><td style="padding:20px 28px 0;">
     <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Companies to watch</h2>
@@ -161,12 +170,28 @@
     </table>
   </td></tr>
 
-  <!-- Customer segments worth looking into -->
+  <!-- Customer segments worth looking into: one table per region so each regional team can lift its own -->
   <tr><td style="padding:20px 28px 0;">
     <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Customer segments worth looking into</h2>
-    <div style="font-size:12px;color:#5C5C5C;margin:-4px 0 8px;">Where new entrants are selling, and what Immix could consider for each.</div>
+    <div style="font-size:12px;color:#5C5C5C;margin:-4px 0 8px;">By region, so each region&#39;s team can lift its own table. Who new entrants are selling to, and what Immix could consider.</div>
+    <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;margin:12px 0 6px;">🇺🇸 United States</div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:12px;border-collapse:collapse;line-height:1.45;">
-      <tr style="background-color:#111111;color:#FFFFFF;"><th align="left" style="padding:7px;">Segment</th><th align="left" style="padding:7px;">Who's selling into it</th><th align="left" style="padding:7px;">What to consider for Immix</th></tr>
+      <tr style="background-color:#111111;color:#FFFFFF;"><th align="left" style="padding:7px;">Segment</th><th align="left" style="padding:7px;">Who&#39;s selling into it</th><th align="left" style="padding:7px;">What to consider for Immix</th></tr>
+      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;font-weight:bold;">{{segment}}</td><td style="padding:8px;">{{companies}}</td><td style="padding:8px;">{{consideration}}</td></tr>
+    </table>
+    <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;margin:12px 0 6px;">🇬🇧 United Kingdom</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:12px;border-collapse:collapse;line-height:1.45;">
+      <tr style="background-color:#111111;color:#FFFFFF;"><th align="left" style="padding:7px;">Segment</th><th align="left" style="padding:7px;">Who&#39;s selling into it</th><th align="left" style="padding:7px;">What to consider for Immix</th></tr>
+      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;font-weight:bold;">{{segment}}</td><td style="padding:8px;">{{companies}}</td><td style="padding:8px;">{{consideration}}</td></tr>
+    </table>
+    <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;margin:12px 0 6px;">🌍 EMEA</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:12px;border-collapse:collapse;line-height:1.45;">
+      <tr style="background-color:#111111;color:#FFFFFF;"><th align="left" style="padding:7px;">Segment</th><th align="left" style="padding:7px;">Who&#39;s selling into it</th><th align="left" style="padding:7px;">What to consider for Immix</th></tr>
+      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;font-weight:bold;">{{segment}}</td><td style="padding:8px;">{{companies}}</td><td style="padding:8px;">{{consideration}}</td></tr>
+    </table>
+    <div style="font-size:13px;font-weight:bold;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;margin:12px 0 6px;">🇿🇦 South Africa</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:12px;border-collapse:collapse;line-height:1.45;">
+      <tr style="background-color:#111111;color:#FFFFFF;"><th align="left" style="padding:7px;">Segment</th><th align="left" style="padding:7px;">Who&#39;s selling into it</th><th align="left" style="padding:7px;">What to consider for Immix</th></tr>
       <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:8px;font-weight:bold;">{{segment}}</td><td style="padding:8px;">{{companies}}</td><td style="padding:8px;">{{consideration}}</td></tr>
     </table>
   </td></tr>
@@ -198,6 +223,15 @@
       </tr>
     </table>
     <div style="font-size:11px;color:#8A8A8A;margin-top:6px;">Stages: TALK → PROPOSED → CONSULTATION → PASSED → IN FORCE</div>
+  </td></tr>
+
+  <!-- Deep dive (optional): one topic per edition, short summary + link to the full report -->
+  <tr><td style="padding:20px 28px 0;">
+    <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Deep dive: {{topic}}</h2>
+    <div style="background-color:#F7F7F7;padding:14px 16px;font-size:13px;line-height:1.55;">
+      <p style="margin:0 0 8px;"><strong>{{finding}}</strong> {{detail}}</p>
+      <p style="margin:0;"><strong>Next steps:</strong> {{next_steps}} <a href="{{report_url}}" style="color:#BF2C37;">Read the full review →</a></p>
+    </div>
   </td></tr>
 
   <!-- What this means: industry vs Immix summary -->

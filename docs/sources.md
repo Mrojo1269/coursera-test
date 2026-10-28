@@ -95,3 +95,14 @@ The email splits these into two sections. Neither is labelled by relationship, b
 - **Drones:** Flock Aerodome, Skydio, BRINC, DroneLife, FAA BVLOS rulemaking
 - **Energy sites:** Solar Power World, PV Magazine, EV charging trade press (ChargePoint, SWTCH)
 - **Smart buildings and proptech:** Smart Building Magazine, Commercial Observer proptech, Brivo
+
+## Industry associations (for the associations section)
+
+| Association | Region | Where to look |
+|---|---|---|
+| BSIA (British Security Industry Association) | UK | bsia.co.uk/industry-news; NSI and SSAIB announcements |
+| TMA (The Monitoring Association) | US | tma.us news, Annual and Mid-Year Meetings, AVS-01 and ASAP updates |
+| SIA (Security Industry Association) | US | securityindustry.org, Security Market Index, ISC West and ISC East programmes |
+| ASIS International | Global | asisonline.org press room, Security Management, ASIS Europe blog, GSX |
+| NetOne | US, Canada | netoneintl.com; SDM and Security Systems News coverage |
+| Euralarm | EU | euralarm.org news; joint guidance with CoESS |

@@ -22,17 +22,19 @@ Each cadence gets its own subscription list, so people can opt into only the wee
 3. **The 3 signals that matter:** a TL;DR
 4. **Trends: video and virtual monitoring** (the key section)
    - *(Trends detail)* grouped by region: 🇺🇸 US → 🇬🇧 UK → 🌍 EMEA → 🇿🇦 South Africa → (other regions only if material). Every item includes a **"Selling to:"** line naming the customer segments the new entrants target
-5. **Top client spotlight:** the latest on each top client, in a fixed order, with a "For Immix" line. **Only confirmed clients are included**; unconfirmed names are left out until confirmed. The client list is kept outside this repo because it's confidential
+5. **Top client spotlight:** the latest on each top client, in a fixed order, with a "For Immix" line. Grouped by region (global/US first, then EMEA). **Only confirmed clients are included**; unconfirmed names are left out until confirmed. The client list is kept outside this repo because it's confidential
 6. **Immix reputation corner:** how Immix shows up publicly. Covers press coverage, awards and recognition, partner announcements about Immix integrations, public reviews (G2, Capterra), and name watch (other companies called IMMIX or immixGroup that cause search and alert confusion). Each item has a "Use it" or "Consider" line
 7. **Ecosystem updates:** key updates from established players, including partners and integrations
-8. **Companies to watch:** emerging companies, **every funding round in the space at any size**, and accelerator graduates, each with **"Sells to:"**
-9. **Customer segments worth looking into:** each segment, who is selling into it, and what Immix could consider
-10. **Auxiliary markets and innovation:** innovation in neighbouring markets: site mapping and reality capture (real estate, construction), insurance, drones, energy sites, smart buildings. Each item has an "Immix angle" line
-11. **Legislation, policy and talks:** enacted laws, proposed bills, consultations, hearings and notable talks, with product impact
-12. **What this means:** *For the industry*, 3 takeaways. *For Immix*: opportunity, risk and what to prepare
-13. **General security:** short bullets, deliberately at the bottom
-14. **Further reading:** every source used, by article title and publication, in groups
-15. **Footer:** internal-only notice, signal key, feedback
+8. **Industry associations:** one row each for BSIA, TMA, SIA, ASIS, NetOne and Euralarm, with an "Immix angle"
+9. **Companies to watch:** emerging companies, **every funding round in the space at any size**, and accelerator graduates, each with **"Sells to:"**
+10. **Customer segments worth looking into:** one table per region (US, UK, EMEA, South Africa) so each regional team can lift its own; each segment, who is selling into it, and what Immix could consider
+11. **Auxiliary markets and innovation:** innovation in neighbouring markets: site mapping and reality capture (real estate, construction), insurance, drones, energy sites, smart buildings. Each item has an "Immix angle" line
+12. **Legislation, policy and talks:** enacted laws, proposed bills, consultations, hearings and notable talks, with product impact
+13. **Deep dive** (optional): one topic per edition, a three-paragraph summary plus a link to the full report
+14. **What this means:** *For the industry*, 3 takeaways. *For Immix*: opportunity, risk and what to prepare
+15. **General security:** short bullets, deliberately at the bottom
+16. **Further reading:** every source used, by article title and publication, in groups
+17. **Footer:** internal-only notice, signal key, feedback
 
 Section names never label a company by relationship. "Ecosystem updates" covers partners and other established players alike.
 
