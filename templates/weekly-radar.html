@@ -33,13 +33,11 @@
     <div style="color:#BDBDBD;font-size:14px;margin-top:4px;">What's emerging in video and virtual monitoring, and what it means for Immix.</div>
   </td></tr>
 
-  <!-- Section menu: links open the web version at each section (Gmail strips in-email anchors). Trends is the primary, highlighted stop. -->
-  <tr><td style="padding:14px 28px 4px;">
-    <div style="font-size:11px;color:#5C5C5C;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Jump to a section (opens the web version) · <a href="{{web_url}}" style="color:#BF2C37;">View in browser</a></div>
-    <a href="{{web_url}}#trends" style="display:inline-block;background-color:#BF2C37;color:#FFFFFF;font-weight:bold;text-decoration:none;padding:5px 12px;margin:3px 4px 3px 0;font-size:13px;">★ Trends</a>
-    <!-- then outlined links: #clients Clients · #reputation Reputation · #ecosystem Ecosystem · #associations Associations · #watch Companies · #segments Segments · #adjacent Auxiliary markets · #policy Legislation · #deepdive Deep dive · #meaning What it means · #general General security · #reading Sources -->
-    <a href="{{web_url}}#clients" style="display:inline-block;color:#111111;text-decoration:none;border:1px solid #D0D0D0;padding:4px 10px;margin:3px 4px 3px 0;font-size:12px;">Clients</a>
-    <a href="{{web_url}}#reputation" style="display:inline-block;color:#111111;text-decoration:none;border:1px solid #D0D0D0;padding:4px 10px;margin:3px 4px 3px 0;font-size:12px;">Reputation</a>
+  <!-- Section menu: one wrapping line of text links. Each opens the web version at that section, because Gmail strips in-email anchors.
+       Trends is the highlighted first stop. Add #deepdive "Deep dive" after Legislation when an edition has one. -->
+  <tr><td style="padding:12px 28px 10px;border-bottom:1px solid #E6E6E6;">
+    <div style="font-size:13px;line-height:1.9;"><a href="{{web_url}}#trends" style="color:#BF2C37;font-weight:bold;text-decoration:none;font-size:13px;white-space:nowrap;">★ Trends</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#clients" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Clients</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#reputation" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Reputation</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#ecosystem" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Ecosystem</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#deployment" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Deployment</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#associations" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Associations</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#watch" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Companies</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#segments" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Segments</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#adjacent" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Auxiliary markets</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#policy" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Legislation</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#meaning" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">What it means</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#general" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">General security</a> <span style="color:#BDBDBD;">|</span> <a href="{{web_url}}#reading" style="color:#111111;text-decoration:none;font-size:13px;white-space:nowrap;">Sources</a></div>
+    <div style="font-size:12px;margin-top:4px;"><a href="{{web_url}}" style="color:#BF2C37;font-weight:bold;">Read the Immix newsletter online →</a> <span style="color:#8A8A8A;">(section links open the online version)</span></div>
   </td></tr>
 
   <!-- From the VP -->
@@ -130,14 +128,26 @@
     <div style="font-size:12px;color:#5C5C5C;margin:-4px 0 8px;">Key moves from established players, partners and integrations.</div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-collapse:collapse;">
       <tr style="border-bottom:1px solid #E6E6E6;">
-        <td style="padding:8px;width:120px;font-weight:bold;color:#111111;">{{company}}</td>
+        <td style="padding:8px;width:120px;font-weight:bold;color:#111111;vertical-align:top;">{{company}}<br><span style="display:inline-block;margin-top:3px;border:1px solid #111111;font-size:10px;font-weight:normal;padding:0 5px;">{{On-prem | SaaS | Hybrid}}</span></td>
         <td style="padding:8px;"><span style="background-color:#E6E6E6;font-size:11px;padding:1px 6px;border-radius:3px;">Launch</span> {{update}}. <em style="color:#BF2C37;">Why it matters:</em> {{implication}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td>
       </tr>
       <tr style="background-color:#FAFAFA;border-bottom:1px solid #E6E6E6;">
-        <td style="padding:8px;width:120px;font-weight:bold;color:#111111;">{{company}}</td>
+        <td style="padding:8px;width:120px;font-weight:bold;color:#111111;vertical-align:top;">{{company}}<br><span style="display:inline-block;margin-top:3px;border:1px solid #111111;font-size:10px;font-weight:normal;padding:0 5px;">{{On-prem | SaaS | Hybrid}}</span></td>
         <td style="padding:8px;"><span style="background-color:#E6E6E6;font-size:11px;padding:1px 6px;border-radius:3px;">Partnership</span> {{update}}. <em style="color:#BF2C37;">Why it matters:</em> {{implication}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td>
       </tr>
     </table>
+  </td></tr>
+
+  <!-- Deployment snapshot: on-prem vs SaaS for customers, partners and new entrants. Written for leadership.
+       Customer names follow the confirmed client list kept outside this repo. Mark anything unverified "(to verify)". -->
+  <tr><td style="padding:20px 28px 0;">
+    <h2 style="font-size:18px;color:#111111;margin:0 0 10px;border-bottom:2px solid #111111;padding-bottom:6px;">Deployment snapshot: on-prem vs SaaS</h2>
+    <div style="font-size:12px;color:#5C5C5C;margin:-4px 0 8px;">How our customers, partners and new entrants deploy today, and who is moving.</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:12px;border-collapse:collapse;line-height:1.45;">
+      <tr style="background-color:#111111;color:#FFFFFF;"><th align="left" style="padding:7px;">Company / product</th><th align="left" style="padding:7px;">Group</th><th align="left" style="padding:7px;">Today</th><th align="left" style="padding:7px;">Moving toward</th><th align="left" style="padding:7px;">Why it matters for Immix</th></tr>
+      <tr style="border-bottom:1px solid #E6E6E6;"><td style="padding:7px;font-weight:bold;">{{company_product}}</td><td style="padding:7px;">{{Customer | Partner | New entrant}}</td><td style="padding:7px;">{{On-prem | SaaS | Hybrid}}</td><td style="padding:7px;">{{direction_or_"No change"}}</td><td style="padding:7px;">{{implication}} <a href="{{source_url}}" style="color:#BF2C37;">→</a></td></tr>
+    </table>
+    <div style="font-size:12px;line-height:1.5;margin-top:8px;padding:8px 10px;background-color:#F7F7F7;"><strong>The picture this edition:</strong> {{one_or_two_sentence_summary, e.g. how many customers are still on-prem and which partners are going cloud-only}}</div>
   </td></tr>
 
   <!-- Industry associations: BSIA, TMA, SIA, ASIS, NetOne, Euralarm (one row each, with an Immix angle) -->
@@ -157,15 +167,15 @@
       <tr style="background-color:#111111;color:#FFFFFF;">
         <th align="left" style="padding:8px;">Company</th><th align="left" style="padding:8px;">Region</th>
         <th align="left" style="padding:8px;">Programme / round</th><th align="left" style="padding:8px;">What they do</th>
-        <th align="left" style="padding:8px;">Rel.</th>
+        <th align="left" style="padding:8px;">Deployment</th><th align="left" style="padding:8px;">Rel.</th>
       </tr>
       <tr style="border-bottom:1px solid #E6E6E6;">
         <td style="padding:8px;">{{company}}</td><td style="padding:8px;">US</td>
-        <td style="padding:8px;">YC {{batch}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">5</td>
+        <td style="padding:8px;">YC {{batch}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">{{On-prem | SaaS | Hybrid}}</td><td style="padding:8px;">5</td>
       </tr>
       <tr style="background-color:#FAFAFA;border-bottom:1px solid #E6E6E6;">
         <td style="padding:8px;">{{company}}</td><td style="padding:8px;">ZA</td>
-        <td style="padding:8px;">Seed · ${{amount}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">4</td>
+        <td style="padding:8px;">Seed · ${{amount}}</td><td style="padding:8px;">{{one_liner}}</td><td style="padding:8px;">{{On-prem | SaaS | Hybrid}}</td><td style="padding:8px;">4</td>
       </tr>
     </table>
   </td></tr>

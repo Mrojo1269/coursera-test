@@ -79,6 +79,13 @@ The email splits these into two sections. Neither is labelled by relationship, b
 - **AI-native video and cloud:** Spot AI, Coram, Lumana, Volt AI, Cloudastructure
 - Plus every new company the funding and accelerator scan surfaces each week
 
+## Deployment model (for deployment tags and the deployment snapshot)
+
+- **Vendor product, pricing and licensing pages:** the first source for whether a product is on-prem, SaaS or hybrid
+- **Release notes and launch announcements:** cloud-only launches, end-of-life notices for on-prem versions, new hosted editions
+- **IPVM and SDM coverage:** independent reporting on cloud migration and VSaaS adoption
+- **Customer and partner conversations:** which version each customer runs and whether they plan to move (from account teams; kept outside this repo)
+
 ## Immix reputation (for the reputation corner)
 
 - **Trade press mentions of Immix:** SecurityInfoWatch, SDM, Security Systems News, IFSEC Insider, Hi-Tech Security Solutions (set Google Alerts for "Immix" with "monitoring" OR "video" so the alerts skip the companies below that share our name)
